@@ -1,0 +1,30 @@
+.header{
+    height:100px;
+    background-color: #3B3B3B;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.left-div{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+.middle-div{
+    display: flex;
+    height: 40%;
+    width: 10%;
+    justify-content: center;
+    align-items:center;
+}
+.right-div{
+    display: flex;
+    justify-content: center;
+    align-items:right;
+}
